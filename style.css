@@ -1,0 +1,66 @@
+header {background-color:cadetblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+body {background-color: #87b1cf;}
+
+#Landingname { color: hsl(0, 87%, 31%);
+font-size: xxx-large;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+#Landingbio { color: white;
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: justify;
+
+height: 150px;
+margin-left: 10px;}
+
+.links {list-style-type: none;
+float:right;
+}
+
+ li {display: inline-block;
+ }
+
+
+
+
+#PersonalInfo {background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#PersonalInfo th { background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px; height: 50px;
+    
+}
+
+#PersonalInfo tr {background-color: beige;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;}
+
+
+
+
+#message  {
+    width: 500px; height: 250px;}
+
+#emailaddress { width: 500px; height: 25px;}
+
+#Nameandsurname {width: 500px; height: 25px;}
+
+#Contact { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:firebrick; font-size: xx-large;}
+
+#About {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: firebrick; font-size: xx-large;}
+
+li a {
+    display:contents;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;}

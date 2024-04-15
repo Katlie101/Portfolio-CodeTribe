@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>Contact Us</title>
+
+        <link rel="stylesheet" href="./style.css">
     </head>
     
     <header>
     <img src="./Images/errands-by-kat-high-resolution-logo.png" height="30" width="30">
     <nav>
-        <ol>
+        <ol class="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about me.index.html">About Me</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -16,47 +18,27 @@
   </header>
 
     <style>
- li {display: inline;
-        }
-
-        body {font-family: Arial, Helvetica, sans-serif;}
-        * {box-sizing: border-box;}
         
-        input[type=text], select, textarea {
-          width: 100%;
-          padding: 12px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          box-sizing: border-box;
-          margin-top: 6px;
-          margin-bottom: 16px;
-          resize: vertical;
-        }
         
-        input[type=submit] {
-          background-color: #04AA6D;
-          color: white;
-          padding: 12px 20px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-        }
-        
-        input[type=submit]:hover {
-          background-color: #45a049;
-        }
-        
-        .container {
-          border-radius: 5px;
-          background-color: #f2f2f2;
-          padding: 20px;
-        }
         </style>
-    <body style="background-color: aliceblue;">
-        <h3>Contact Us</h3>
-        <p> Below are my contact details please reach out for thorough information!<div>Contact Number 0634469703</div>
+    <body>
+        <h3 id="Contact">Contact Us</h3>
+        <p> Below are my contact details please reach out for thorough information!
  </p>
  <p>Or if you want to send a message </p>
+ <form>
+
+  <label for="Nameandsurname">Name and Surname</label><br>
+<input type="text" id="Nameandsurname" name="Nameandsurname">
+<br>
+<label for="Emailaddress">Email Address</label><br>
+<input type="text" id="emailaddress" name="Emailaddresss">
+<br>
+<label for="Message"> Message</label><br>
+<input type="text" id="message" name="message"><br>
+
+<input type="submit" id="submit" name="submit">
+</form>
 
 
 
@@ -73,13 +55,13 @@
         <br>
          <a
         href="https://www.instagram.com/katlegokitty/">
-        <img src="./Images/instagram-icon.avif"  height="50">
+        <img src="./Images/instagram.svg"  height="20">
        </a>
-       <a href="https://twitter.com/KatlegoBoledii">
-           <img src="./Images/X logo 2.0.webp" height="50">
+       <a href="https://twpitter.com/KatlegoBoledii">
+           <img src="./Images/x.svg" height="20">
        </a>
        <a href="https://www.linkedin.com/in/katlegomasekoameng">
-           <img src="./Images/linkedin logo.webp" height="50">
+           <img src="./Images/linkedin.svg" height="20">
        </a></footer>
 
 </html>

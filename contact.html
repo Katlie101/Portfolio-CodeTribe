@@ -17,40 +17,58 @@
     </nav>
   </header>
 
-    <style>
-        
-        
-        </style>
+    <style src="./contact.js"></style>
     <body>
+<div class="ContactForm"></div>
         <h3 id="Contact">Contact Us</h3>
-        <p> Below are my contact details please reach out for thorough information!
- </p>
- <p>Or if you want to send a message </p>
- <form>
 
-  <label for="Nameandsurname">Name and Surname</label><br>
-<input type="text" id="Nameandsurname" name="Nameandsurname">
+        Please fill in the form below for me to get back to you. 
+
+        <br>
+        <br>
+
+   
+<form onsubmit="handleFormSubmit('event')"
+
+id ="myform">
+
+<label>Your Name: <br>
+<input type="name" name="name" id="namecu" required> 
+</label> <br>
+
+<label>Your Surname: <br>
+<input type="surname" name="surname" id="surnamecu" required> <br>
+
+</label>
+<label>
+  Your email: <br>
+  <input type="email" name="email" id="Emailbox" required>
+</label> <br>
+
+<label>
+  Your message: <br>
+  <textarea name="message" id="textarea" required></textarea>
+</label>
+
 <br>
-<label for="Emailaddress">Email Address</label><br>
-<input type="text" id="emailaddress" name="Emailaddresss">
-<br>
-<label for="Message"> Message</label><br>
-<input type="text" id="message" name="message"><br>
-
-<input type="submit" id="submit" name="submit">
-</form>
-
-
-
+<button type="submit">Send</button>
+</form> </p>
+</div>
 
  <br>
 
-    </body>
-    <footer> <h5>Physical Adress</h5>
-        <p> <div>89 McDonald Avenue <div>Fauna Park</div> <div>Polokwane, 0787</div> 
-            <p> Contact Details  0634469703
-            </p>
+<footer> 
+    
+    <h5>Physical Adress</h5>
+        <p style="font-size: medium;"> 89 McDonald Avenue 
             <br>
+            Fauna Park 
+            <br> 
+            Polokwane, 0787 
+            <br>
+            Contact Details  0634469703
+            
+        
         </p>
         <br>
          <a
@@ -63,5 +81,7 @@
        <a href="https://www.linkedin.com/in/katlegomasekoameng">
            <img src="./Images/linkedin.svg" height="20">
        </a></footer>
+    </body>
+    
 
 </html>

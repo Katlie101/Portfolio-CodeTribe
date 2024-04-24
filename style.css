@@ -1,7 +1,7 @@
-header {background-color:cadetblue;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+header {background-color:#f3a4f1;
+font-family: 'Courier New', Courier, monospace; width: 1450px; height: 80px; padding: 10px; margin-top: 10px;}
 
-body {background-color: #87b1cf;}
+body {background-color: #f3a4f1; font-size: larger;}
 
 #Landingname { color: hsl(0, 87%, 31%);
 font-size: xxx-large;
@@ -11,7 +11,7 @@ font-family: 'Courier New', Courier, monospace;
 
 #Landingbio { color: white;
 font-size: large;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'Courier New', Courier, monospace;
 text-align: justify;
 
 height: 150px;
@@ -21,8 +21,12 @@ margin-left: 10px;}
 float:right;
 }
 
- li {display: inline-block;
+ li {display: inline-block; 
  }
+
+ .navlines {border-right: 3px gray; }
+
+ img { border-radius: 50%; position: relative;} 
 
 
 
@@ -45,18 +49,22 @@ text-align: center;}
 
 
 
-#message  {
+#textarea {
     width: 500px; height: 250px;}
 
-#emailaddress { width: 500px; height: 25px;}
+#Emailbox { width: 300px; height: 25px;}
 
-#Nameandsurname {width: 500px; height: 25px;}
+#namecu { width: 300px; height: 25px;}
 
-#Contact { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color:firebrick; font-size: xx-large;}
+#surnamecu {width: 300px; height: 25px;}
 
-#About {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: firebrick; font-size: xx-large;}
+
+#Contact { font-family: 'Courier New', Courier, monospace;
+color:firebrick; font-size: xxx-large;text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px; }
+
+#About {font-family: 'Courier New', Courier, monospace;
+color: firebrick; font-size: xxx-large; text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px;
+}
 
 li a {
     display:contents;
@@ -64,3 +72,29 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     float: right;}
+
+
+
+.Educational { border-style: inset;
+
+
+
+}
+
+
+
+.Work { 
+
+border-style: inset;
+}
+ 
+
+.Projects { 
+border-style: inset;
+}
+
+
+h4 { font-size: xx-large;
+background-color: blueviolet;}
+ 
+h2 {font-size: xx-large; background-color: blueviolet;}

@@ -1,17 +1,38 @@
-header {background-color: yellow;
-font-family: 'Courier New', Courier, monospace; margin: -8px; height: 105px;}
+.headers {
+    padding: 10px 16px; 
+    background: rgb(239, 239, 130);
+    color: #ffd9fe;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
 
-nav {display: block; text-decoration: none; float: right;}
+.content { padding: 16px;
+}
 
-body {background-color: #f3a4f1; font-size: larger;}
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+nav {display: block; 
+    float: right;
+    }
+
+body {background-color: #ffd9fe; font-size: medium;
+ margin: 0px; font-family: Arial, Helvetica, sans-serif;}
 
 
-h1 {color: black;
-text-decoration: overline; font-size: 45px;}
+
 
 
 .landingbio { color: black;
-font-size: large;
+font-size: medium;
 border: 6px dotted gray;
 width: 1150px; 
 }
@@ -24,15 +45,12 @@ float:right;
  }
 
  #stay { font-size: medium;}
- 
- 
 
-  
- 
+ footer { background-color: aliceblue;
+    width: 1450px; height: 300px;
+    
 
-
-
-
+ }
 
 #PersonalInfo {background-color: beige;
     font-family: 'Courier New', Courier, monospace;
@@ -50,7 +68,7 @@ font-family: 'Courier New', Courier, monospace;
 text-align: center;}
 
 
-
+/* Form styles*/
 
 #YourMessage {
     width: 500px; height: 250px;}
@@ -63,12 +81,16 @@ text-align: center;}
 #YourSurname {width: 300px; height: 25px;}
 
 
-#Contact { font-family: 'Courier New', Courier, monospace;
-color:firebrick; font-size: xx-large;text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px; }
+#Contact { 
+color:firebrick; font-size: xx-large;
+text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; 
+letter-spacing: 5px; }
 
-#About {font-family: 'Courier New', Courier, monospace;
-color: firebrick; font-size: xx-large; text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px;
- text-decoration: none;}
+#About { text-decoration-line: underline;
+color: black; font-size: xx-large; 
+text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow; 
+letter-spacing: 5px;
+text-decoration: none;}
 
 li a {
     display:contents;
@@ -80,19 +102,13 @@ li a {
 
 
 .Educational { 
-    
-    width: 800px;
-    padding: 10px;
-
+     font-size: medium;
 }
 
 
 
-.Work {
+.Work { font-size: medium;
 
-
-width: 800px;
-padding: 10px;
 }
 
 .eduwork::after { 
@@ -100,20 +116,45 @@ padding: 10px;
     display: table;
     clear: both;
 }
- 
 
-
-
-h4:hover { font-size: xx-large;
-background-color: blueviolet;
-transition-timing-function: ease;
-transition: 15s;
-
+.socials { float: right;
 
 }
 
 
 
-h2 {font-size: xx-large; background-color: blueviolet;}
+video {  padding: 5%;
+margin: 3%;}
+ 
 
-span { color: blue;}
+/* headings styles*/
+
+h1 {color: black;
+    text-decoration: overline; 
+    font-size: xx-large; 
+    letter-spacing: 50px; 
+}
+
+h3:hover { font-size: xx-large;
+background-color: blueviolet;
+transition: 7s; 
+width: 100%;
+ 
+}
+
+h2 {font-size: xx-large; 
+    background-color: blueviolet; 
+    text-decoration: overline underline;}
+
+span { color: blue;
+display: inline-block;
+width: 500px;}
+
+#headid { font-size: larger; 
+    text-decoration: none; 
+    letter-spacing: normal;
+text-align: center;}
+
+#homepic {
+    float: right; border-radius: 50%;
+}

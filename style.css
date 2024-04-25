@@ -1,21 +1,20 @@
-header {background-color:#f3a4f1;
-font-family: 'Courier New', Courier, monospace; width: 1450px; height: 80px; padding: 10px; margin-top: 10px;}
+header {background-color: yellow;
+font-family: 'Courier New', Courier, monospace; margin: -8px; height: 105px;}
+
+nav {display: block; text-decoration: none; float: right;}
 
 body {background-color: #f3a4f1; font-size: larger;}
 
-#Landingname { color: hsl(0, 87%, 31%);
-font-size: xxx-large;
-font-family: 'Courier New', Courier, monospace;
 
-}
+h1 {color: black;
+text-decoration: overline; font-size: 45px;}
 
-#Landingbio { color: white;
+
+.landingbio { color: black;
 font-size: large;
-font-family: 'Courier New', Courier, monospace;
-text-align: justify;
-
-height: 150px;
-margin-left: 10px;}
+border: 6px dotted gray;
+width: 1150px; 
+}
 
 .links {list-style-type: none;
 float:right;
@@ -24,47 +23,52 @@ float:right;
  li {display: inline-block; 
  }
 
- .navlines {border-right: 3px gray; }
+ #stay { font-size: medium;}
+ 
+ 
 
- img { border-radius: 50%; position: relative;} 
+  
+ 
+
 
 
 
 
 #PersonalInfo {background-color: beige;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
 #PersonalInfo th { background-color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     width: 400px; height: 50px;
     
 }
 
 #PersonalInfo tr {background-color: beige;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'Courier New', Courier, monospace;
 text-align: center;}
 
 
 
 
-#textarea {
+#YourMessage {
     width: 500px; height: 250px;}
 
-#Emailbox { width: 300px; height: 25px;}
+#YourEmail { width: 300px; height: 25px;}
 
-#namecu { width: 300px; height: 25px;}
+#YourName { width: 300px; height: 25px;
+}
 
-#surnamecu {width: 300px; height: 25px;}
+#YourSurname {width: 300px; height: 25px;}
 
 
 #Contact { font-family: 'Courier New', Courier, monospace;
-color:firebrick; font-size: xxx-large;text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px; }
+color:firebrick; font-size: xx-large;text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px; }
 
 #About {font-family: 'Courier New', Courier, monospace;
-color: firebrick; font-size: xxx-large; text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px;
-}
+color: firebrick; font-size: xx-large; text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; letter-spacing: 5px;
+ text-decoration: none;}
 
 li a {
     display:contents;
@@ -75,26 +79,41 @@ li a {
 
 
 
-.Educational { border-style: inset;
-
-
+.Educational { 
+    
+    width: 800px;
+    padding: 10px;
 
 }
 
 
 
-.Work { 
+.Work {
 
-border-style: inset;
+
+width: 800px;
+padding: 10px;
+}
+
+.eduwork::after { 
+    content: none;
+    display: table;
+    clear: both;
 }
  
 
-.Projects { 
-border-style: inset;
+
+
+h4:hover { font-size: xx-large;
+background-color: blueviolet;
+transition-timing-function: ease;
+transition: 15s;
+
+
 }
 
 
-h4 { font-size: xx-large;
-background-color: blueviolet;}
- 
+
 h2 {font-size: xx-large; background-color: blueviolet;}
+
+span { color: blue;}
